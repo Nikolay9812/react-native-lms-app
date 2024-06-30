@@ -167,7 +167,7 @@ export default function SignUpScreen() {
               style={[styles.input, { paddingLeft: 40 }]}
               keyboardType="email-address"
               value={userInfo.email}
-              placeholder="support@becodemy.com"
+              placeholder="user@gmail.com"
               onChangeText={(value) =>
                 setUserInfo({ ...userInfo, email: value })
               }
